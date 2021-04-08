@@ -66,7 +66,7 @@ NOTE: This will be a callback function for the tasks below
 */
 
 function inning(number){
-    return Math.floor(Math.random()*3++)
+    return Math.floor(Math.random()*3+1)
 }
 console.log(inning)
 
@@ -84,8 +84,8 @@ Use the finalScore function below to do the following:
 }
 */ 
 
-function finalScore(/*code Here*/){
-  /*Code Here*/
+function finalScore(inning,number){
+  
 }
 
 /* ⚾️⚾️⚾️ Task 4: getInningScore() ⚾️⚾️⚾️
